@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Version>1.0.0</Version>
+    <Authors>Dalım Çepiç</Authors>
+    <Description>A modern and efficient alternative to Regex for text pattern matching and extraction</Description>
+    <PackageTags>parsing;regex;pattern;matching;extraction</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include = "System" />
+    <Using Include = "System.Collections.Generic" />
+  </ItemGroup>
+</Project>
